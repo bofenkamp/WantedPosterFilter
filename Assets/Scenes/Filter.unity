@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 363149906}
   - component: {fileID: 363149905}
   - component: {fileID: 363149904}
+  - component: {fileID: 363149908}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -454,6 +455,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &363149908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363149903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8bd0c68abc7542bab6ed27557cb7812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wanted: {fileID: 965450155}
+  nameText: {fileID: 729534455}
+  offense: {fileID: 1474409075}
+  wantedDimensions: {x: 0.8, y: 0.15}
+  nameDimensions: {x: 0.9, y: 0.075}
+  offenseDimensions: {x: 0.9, y: 0.240625}
+  margin: 0.05
+  defaultSize: {x: 1080, y: 1920}
 --- !u!1 &511956999
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +735,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 72
+  m_fontSizeMin: 90
   m_fontSizeMax: 7200
   m_fontStyle: 0
   m_textAlignment: 258
@@ -800,7 +821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &785064331
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1833,7 +1854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1303830503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2222,7 +2243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1830561639
 MonoBehaviour:
   m_ObjectHideFlags: 0
