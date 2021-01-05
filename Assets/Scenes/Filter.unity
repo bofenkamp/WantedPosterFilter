@@ -227,11 +227,11 @@ RectTransform:
   m_Father: {fileID: 547508744}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 1080, y: 1152}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &240140811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,9 +282,9 @@ MonoBehaviour:
   m_fontSize: 90
   m_fontSizeBase: 90
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 90
   m_fontStyle: 0
   m_textAlignment: 514
   m_characterSpacing: 0
@@ -470,9 +470,11 @@ MonoBehaviour:
   wanted: {fileID: 965450155}
   nameText: {fileID: 729534455}
   offense: {fileID: 1474409075}
+  inputText: {fileID: 240140810}
   wantedDimensions: {x: 0.8, y: 0.15}
   nameDimensions: {x: 0.9, y: 0.075}
   offenseDimensions: {x: 0.9, y: 0.240625}
+  inputDimensions: {x: 1, y: 0.6}
   margin: 0.05
   defaultSize: {x: 1080, y: 1920}
 --- !u!1 &511956999
@@ -1298,13 +1300,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053187221}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -1.09375, z: 10}
   m_LocalScale: {x: 5.625, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1089060427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,7 +1520,7 @@ MonoBehaviour:
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 1
-  m_HideMobileInput: 0
+  m_HideMobileInput: 1
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
@@ -1621,7 +1623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &1167034869
 Camera:
   m_ObjectHideFlags: 0
